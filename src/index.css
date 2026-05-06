@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Newsreader:ital,wght@0,400;0,500;1,400&family=Libre+Baskerville:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, #root {
+  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, sans-serif;
+}
